@@ -19,9 +19,9 @@ export default function Home({ posts }) {
               <div key={post.id}>
                 <h1 title="Click the button for full details">{post.title.substring(0, 10)}...</h1>
                 <p title="Click the button for full details">{post.body.substring(0, 70)}...</p>
-
+                <br />
                 <Link href="/blogs/[id]" as={`/blogs/${post.id}`} legacyBehavior>
-                  <a>Rad More</a>
+                  <a className={styles.readMoreButton}>Rad More</a>
                 </Link>
               </div>
             ))}

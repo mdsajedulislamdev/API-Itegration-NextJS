@@ -4,3 +4,11 @@
   direction: row;
   gap: 20px;
 }
+.readMoreButton {
+  color: white;
+  background-color: #2d3630;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 3px;
+  border-radius: 3px;
+}
